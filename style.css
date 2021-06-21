@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url(images/hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.circle {
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    border: 6.5px solid rgb(255,255,255);
+    border-radius: 50%; 
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.container7 .circle {
+    border-color: #5D6B8F;
+}
+
+.nav_links li { 
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: auto;
+}
+
+.nav_links li a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: #e7d5f2;
+}
+
+.cta button {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255,255,255);
+    border: 1px solid #DDDDDD;
+    background-color: transparent;
+    border-radius: 40px;
+    box-shadow: none;
+    width: 142px;
+    height: 40px;
+}
+
+.cta {
+    margin-left: auto;
+}
+
+.cta button:hover {
+    color: #261E9A;
+    background-color: rgb(255,255,255);
+}
+
+
+header {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container1 {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    line-height: 52px;
+
+}
+
+.container1 h1 {
+    max-width: 350px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+.container1 p {
+    color: rgb(255,255,255);
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 310px;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 280px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(38, 30, 154);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.container2 {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(38, 30, 154);
+    border-radius: 2px;
+    padding: 100px 0 50px 0;
+}
+
+.container2-child {
+    max-width: 240px;
+    width: 100%;
+}
+
+.container2-child h2 {
+    padding-top: 20px;
+}
+
+.container2-child p {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(93, 107, 143);
+    padding-top: 20px;
+}
+
+.icon {
+    height: 45px;
+}
+
+#video {
+    background-image: url(images/o-saas-video-background.jpeg);
+    background-size: cover;
+}
+
+#video .container1 {
+    text-align: center;
+}
+
+.container1 h4 {
+    color: rgb(53, 120, 192);
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+
+.container1 h3 {
+    color: rgb(34, 28, 143);
+}
+
+.container1 img {
+    margin-top: 100px;
+}
+
+p.video-content {
+    text-align: center;
+    color: rgb(44, 69, 170);
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.container3 {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 40px;
+}
+
+.container3 p {
+    color: rgb(93, 107, 143);
+    font-size: 17px;
+    line-height: 26px;
+    padding-left: 70px;
+}
+
+#container4 {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.container4-child {
+    max-width: 460px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 32px;
+    color: rgb(38, 30, 154);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.container4-child h3 {
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.container4-child p {
+    color: rgb(93, 107, 143);
+    font-size: 16px;
+}
+
+.container5-child {
+    padding: 5px 20px;
+}
+
+.container5-child p{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(93, 107, 143);
+    padding-top: 10px;
+}
+
+.testimonial {
+    background-image: url(images/c7d5826f-o-saas-pricing-hero_1000000000000000000028.png);
+    background-size: cover;
+}
+
+.container6 {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 80px;
+    height: 460px;
+}
+
+
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(93, 107, 143);
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+
+.container6 img {
+    margin: 30px 20px;
+    vertical-align: middle;
+}
+
+#pricing, .footer, .footer-logo {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+h5 {
+    font-size: 48px;
+    color: rgb(38, 30, 154);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+#pricing p {
+    color: rgb(93, 107, 143);
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 26px;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(152, 140, 213);
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 0 30px 0;
+    
+}
+
+h7 {
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(93, 107, 143);   
+}
+
+.none-background h7 {
+    color: white;
+}
+
+.plans-option {
+    height: 615px;
+    width: 285px;
+    background: linear-gradient(#3023AE, #C86DD7);
+    border-radius: 4px;
+}
+
+.white-background {
+    background: white;
+    height: 607px;
+    width: 277px;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.none-background {
+    background-color: none;
+    height: 607px;
+    width: 277px;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.white-background img, .none-background img {
+    margin-bottom: 40px;
+}
+
+.plans-option ul {
+    color: rgb(93, 107, 143);
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.none-background ul {
+    color: rgb(228, 218, 242);
+}
+
+.plans-option ul li {
+    padding: 5px 0;
+}
+
+.month {
+    font-size: 14px;
+}
+
+.plans-option button {
+    width: 157px;
+    height: 45px;
+    background: white;
+    box-shadow: none;
+    color: #C263D2;
+    border: 3px solid #c7ccd9;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+
+.plans-option button:hover {
+    color: #261E9A;
+    border: 3px solid #C263D2;
+}
+
+.none-background button {
+    border-radius: 4px;
+    border: 3px solid white;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.none-background button:hover {
+    border: 3px solid white;
+}
+
+
+.container7 {
+    border-top: 1px solid #E6E6E6;
+    margin: 100px 0;
+}
+
+.footer-logo {
+    margin-top: 60px;
+}
+
+.footer h6 {
+    font-weight: 600;
+    color: #5d6b8f;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 20px 0;
+}
+
+.footer p {
+    font-size: 12px;
+    color: rgb(145, 147, 150);
+    line-height: 20px;
+}
+
+@media (min-width: 601px) {
+    .container2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container3 {
+        display: flex;
+    }
+    
+    #container4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container5 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+    
+    .plans {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    nav, .cta {
+        display: none;
+    }
+
+    header, .container1, #pricing {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .container1 h1 {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+    } 
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container1 p {
+        max-width: 280px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+
+    .container2, .container3 {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 0 50px 20px;
+    }
+
+    .container2-child h2 {
+        max-width: 190px;
+        width: 100%;
+    }
+
+    .icon {
+        margin-top: 40px;
+    }
+
+    .container3 p {
+        padding: 20px 0;
+    }
+
+    #container4, .footer, .footer-logo {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .product-shot {
+        width: 280px;
+        margin: 0 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .container4-child {
+        max-width: 250px;
+        width: 100%;
+        margin: 30px
+    }
+
+    .container4-child p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container5 img {
+        margin: 40px 0 15px 0;
+    }
+
+    .container5-child {
+        padding: 0px;
+    }
+
+    .container6 {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 20px;
+        height: 580px;
+    }
+
+    .container6 img {
+        width: 35%;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    #pricing p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 30px 60px 30px;
+    }
+
+    .plans-option {
+        margin-bottom: 20px;
+    }
+
+    .footer, .footer-logo {
+        padding-left: 20px;
+    }
+
+
+    .container1 a, .container1 h4 {
+        display: none;
+    }
+
+    .container1 h3 {
+        font-size: 32px;
+        line-height: 44px;
+        padding-top: 80px;
+    }
+
+    .container1 p {
+        padding-right: 0;
+        max-width: 250px;
+    }
+}
